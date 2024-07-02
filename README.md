@@ -12,3 +12,12 @@ Services: Azure Data factory, Azure Databricks, Azure Synapse Analytics, Azure S
 3. Azure Synapse Analytics: An integrated analytics service combining big data and data warehousing to provide insights across all your data.
 4. Azure Storage (Data Lake Gen 2): A scalable and secure data lake storage solution that combines the capabilities of Azure Blob Storage and Azure Data Lake.
 5. Azure Synapse SQL Pool: A fully managed data warehouse service that offers high-performance, scalable SQL-based analytics.
+## Project Execution Flow
+1. Create an Azure storage account and create empty directories in the container.
+2. Create a Azure data factory resource, validate and publish different data ingestion pipelines so that Olympics dataset can be transferred and stored in the previously created directory of the Azure container.
+3. Create Azure databricks workspace to write Data transformation job python code in the Azure Databricks notebook and compute this code on the dataset stored in the container.
+4. Create Synapse workspace to perform SQL operations. Create table structure in SQL pool.
+5. understand the results and get some insights.
+
+## Architecture Diagram
+![Architecture Diagram]()
