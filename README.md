@@ -20,4 +20,4 @@ Services: Azure Data factory, Azure Databricks, Azure Synapse Analytics, Azure S
 5. understand the results and get some insights.
 
 ## Architecture Diagram
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/panditpooja/tokyo-olympics-end-to-end-data-engineering-azure-project/blob/dev/Architecture%20diagram.JPG)
