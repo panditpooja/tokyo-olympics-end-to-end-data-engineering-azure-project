@@ -17,7 +17,7 @@ Services: Azure Data factory, Azure Databricks, Azure Synapse Analytics, Azure S
 2. Create a Azure data factory resource, validate and publish different data ingestion pipelines so that Olympics dataset can be transferred and stored in the previously created directory of the Azure container.
 3. Create Azure databricks workspace to write Data transformation job python code in the Azure Databricks notebook and compute this code on the dataset stored in the container.
 4. Create Synapse workspace to perform SQL operations. Create table structure in SQL pool.
-5. understand the results and get some insights.
+5. Understand the results and get some insights.
 
 ## Architecture Diagram
 ![Architecture Diagram](https://github.com/panditpooja/tokyo-olympics-end-to-end-data-engineering-azure-project/blob/dev/Architecture%20diagram.JPG)
